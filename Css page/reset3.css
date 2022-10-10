@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+} 
+#admin-box h1{ 
+    color: green;
+    font-size: 80px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+label, p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+label::first-letter{
+    text-transform: uppercase;
+}
+input:hover{
+    background-color: darkgrey;
+}
+input{
+    font-style: italic;
+    text-align: left; 
+}
+input:focus{
+    color: aliceblue;
+}
+body{
+    background-color:green;
+}
+#admin-box{
+   background-color: red;
+   width: 900px;
+   margin: 100px auto;
+   padding: 30px;
+   border-radius: 10px;
+}
+input{
+    display: block;
+    width: 50%;
+    margin: 1px auto;
+    padding: 5px;
+    outline: 0px;
+    font-size: 15px;
+}
+input[type="submit"]:hover{
+    background-color: green;
+    border: 1px solid green;
+    transition: 0.5s;
+}
+p a{
+    text-decoration: none;
+}
+a{
+    font-size: 30px;
+}
+input::placeholder{
+    color: black;
+    font-size: 15px;
+}
